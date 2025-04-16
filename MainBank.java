@@ -12,11 +12,11 @@ public class MainBank {
         Bank b4 = new Bank("16270525 0112", "Maria", "Krabela", "0823672230234", "maria@gmail.com");
         Bank b5 = new Bank("16101617 2416", "Gery", "Fatimah", "0836834168323", "gery@gery.com");
 
-        service.tambah(new Transaksi("Tr005", 500000.0, 200000.0, 0, "2025-04-2024", "debit", b1));
-        service.tambah(new Transaksi("Tr004", 500000.0, 150000.0, 0, "2025-04-2024", "kredit", b2));
-        service.tambah(new Transaksi("Tr003", 500000.0, 300000.0, 0, "2025-04-2024", "kredit", b3));
-        service.tambah(new Transaksi("Tr002", 500000.0, 100000.0, 0, "2025-04-2024", "kredit", b4));
-        service.tambah(new Transaksi("Tr001", 500000.0, 100000.0, 0, "2025-04-2024", "kredit", b5));
+        service.tambah(new Transaksi("Tr005", 500000.0, 200000.0, 700000.0, "2025-04-2024", "debit", b1));
+        service.tambah(new Transaksi("Tr004", 500000.0, 150000.0, 650000.0, "2025-04-2024", "kredit", b2));
+        service.tambah(new Transaksi("Tr003", 500000.0, 300000.0, 200000.0, "2025-04-2024", "kredit", b3));
+        service.tambah(new Transaksi("Tr002", 500000.0, 100000.0, 600000.0, "2025-04-2024", "kredit", b4));
+        service.tambah(new Transaksi("Tr001", 500000.0, 100000.0, 400000.0, "2025-04-2024", "kredit", b5));
         
 
         int pilih;
