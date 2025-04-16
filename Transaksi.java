@@ -14,7 +14,7 @@ public class Transaksi {
         this.bankAcc = bankAcc;
     }
 
-    public void tampilDataTransaksi() {
+    void tampilDataTransaksi() {
         System.out.println("Kode Transaksi: " + kodeTransaksi);
         System.out.println("Tanggal: " + tanggalTransaksi);
         System.out.println("Type: " + type);
