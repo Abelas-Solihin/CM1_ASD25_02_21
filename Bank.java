@@ -9,7 +9,7 @@ public class Bank {
         this.email = email;
     }
 
-    public void tampilDataNorek() {
+    void tampilDataNorek() {
         System.out.println("No Rekening: " + noRekening);
         System.out.println("Nama: " + nama);
         System.out.println("Nama Ibu: " + namaIbu);

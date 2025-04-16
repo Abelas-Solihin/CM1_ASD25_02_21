@@ -17,7 +17,7 @@ public class Transaksi {
     public void tampilDataTransaksi() {
         System.out.println("Kode Transaksi: " + kodeTransaksi);
         System.out.println("Tanggal: " + tanggalTransaksi);
-        System.out.println("Type: " + type);
+        System.out.println("Type " + type);
         System.out.println("Saldo: " + saldo);
         System.out.println("Debit/Kredit: " + inOutSaldo);
         System.out.println("Final Saldo: " + finalSaldo);
