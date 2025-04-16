@@ -9,4 +9,11 @@ public class Bank {
         this.email = email;
     }
 
+    public void tampilDataNorek() {
+        System.out.println("No Rekening: " + noRekening);
+        System.out.println("Nama: " + nama);
+        System.out.println("Nama Ibu: " + namaIbu);
+        System.out.println("No HP: " + noHp);
+        System.out.println("Email: " + email);
+    }
 }
