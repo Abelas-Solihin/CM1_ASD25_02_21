@@ -70,15 +70,6 @@ public class ServiceTransaksi {
             }
         }
         System.out.println("Menampilkan Saldo Terendah: ");
-    }
 
-    void hitungFinalSaldo() {
-        for (int i = 0; i < idx; i++) {
-            if (trs[i].tipe.equalsIgnoreCase("Kredit")) {
-                trs[i].finalSaldo = trs[i].saldo + trs[i].inOutSaldo;
-            } else if (trs[i].tipe.equalsIgnoreCase("Debit")) {
-                trs[i].finalSaldo = trs[i].saldo - trs[i].inOutSaldo;
-            }
-        }
     }
 }
